@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Walter</title>
-    <link rel="icon" type="image/png" href="./img/favicon.png"> 
+    <title>Walter Alvarado</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-
+<!-- header -->
     <header class="header ">
         <div class="container">
             <figure class="logo">
@@ -30,7 +32,8 @@
         </nav>
         </div>
     </header>
-
+<!-- fin header -->
+<!-- hero -->
     <section class="hero">
         <div class="container">
             <h1>
@@ -40,11 +43,13 @@
             </h1>
             <img class="hero-image" src="./img/yo.jpg" alt="logo" alt="imagen principal del sitio">
         </div>
-    </section>
-
+    </section> 
+<!-- fin hero -->
+<!-- portafolio  -->
     <section id="portafolio" class="portfolio">
         <div class="container">
             <h2>portafolio (Proyectos Destacados)</h2>
+    <!-- article 1 -->
             <article class="project">
                 <div class="project-details">
                     <h3 class="project-title">Randon Walk</h3>
@@ -57,32 +62,53 @@
                         en la universidad</p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img src="./img/millon.png"  alt="" width="500px">
+                    <img src="./img/millon.png"  alt="image" >
                 </figure>
             </article>
+    <!-- article 2 -->
             <article class="project">
                 <div class="project-details">
-                    <h3 class="project-title">Platzi Video</h3>
-                    <h6 class="project-course">React Native/ React</h6>
-                    <p class="project-date"><small></small><strong>Fecha</strong>: 01/07/2020</small> </p>
+                    <h3 class="project-title">Red–Black Tree c++</h3>
+                    <h6 class="project-course">c++</h6>
+                    <p class="project-date"><small></small><strong>Fecha</strong>: 11/2019</small> </p>
                     <p class="project-url"><small></small><strong>Puedes verlo en:</strong>: aun no puedes verlo</small> </p>
                     <p class="project-description">
-                        lo estoy creando y planeo hacerlo en menos de 2 días
-                        estó abarcara mis experiencias tanto en platzi como 
-                        en la universidad</p>
+                    una implemetación del algoritmo
+                    <a href="https://en.wikipedia.org/wiki/Red%E2%80%93black_tree" target="_blank">Red-Black Tree</a>
+                    para el curso de "Estrucctura de datos". <br>
+                    para este codigo utilicé solamente estructuras y no clases
+                    </p>
                 </div>
                 <figure class="project-imageContainer">
-                    <img src="./img/hamburguesa1.jpg"  alt="" width="500px">
+                    <img src="./img/red-black.jpg"  alt="image" height="300px">
                 </figure>
             </article>
         </div>
     </section>
-        <div class="container">
+<!-- fin portafolio -->
+        <div id="eventos" class="container">
             <h2 class="event-list-title">Maś sobre mi experiencia</h2>
         </div>
-    <section id="eventos" class="event-list">
+<!-- experiencia         -->
+    <section class="event-list">
         <div class="container">
+        <!-- event 1     -->
             <article class="event">
+                <figure class="event-imageConteiner">
+                    <img class="event-image" src="img/icpc2019.jpg" alt="">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">ACM-ICPC America-South Finals 2019</h3>
+                    <p class="event-description">ACM-ICPC(International Collegiate Programming 
+                        Contest) es una competición anual
+                        de programación y algorítmica entre universidades de todo el mundo.
+                        En la competición prima el trabajo en equipo, el análisis de problemas
+                        y el desarrollo rápido de software.</p>
+                    <a class="event-url" href="https://icpc.baylor.edu/" target="_blank">Página oficial</a>
+                </div>
+            </article>
+        <!-- event 2     -->
+            <!-- <article class="event">
                 <figure class="event-imageConteiner">
                     <img class="event-image" src="img/28828144_2029901777332660_4027551287867968730_o.jpg" alt="">
                 </figure>
@@ -91,50 +117,12 @@
                     <p class="event-description">el evento más grande para gente que quiere aprender</p>
                     <a class="event-url" href="https://www.youtube.com/watch?v=F8qRZt_jSF0" target="_blank">Ver Platica</a>
                 </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageConteiner">
-                    <img class="event-image" src="img/28828144_2029901777332660_4027551287867968730_o.jpg" alt="">
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">PlatziConf México 2020</h3>
-                    <p class="event-description">el evento más grande para gente que quiere aprender</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=F8qRZt_jSF0" target="_blank">Ver Platica</a>
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageConteiner">
-                    <img class="event-image" src="img/28828144_2029901777332660_4027551287867968730_o.jpg" alt="">
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">PlatziConf México 2020</h3>
-                    <p class="event-description">el evento más grande para gente que quiere aprender</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=F8qRZt_jSF0" target="_blank">Ver Platica</a>
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageConteiner">
-                    <img class="event-image" src="img/28828144_2029901777332660_4027551287867968730_o.jpg" alt="">
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">PlatziConf México 2020</h3>
-                    <p class="event-description">el evento más grande para gente que quiere aprender</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=F8qRZt_jSF0" target="_blank">Ver Platica</a>
-                </div>
-            </article>
-            <article class="event">
-                <figure class="event-imageConteiner">
-                    <img class="event-image" src="img/28828144_2029901777332660_4027551287867968730_o.jpg" alt="">
-                </figure>
-                <div class="event-detail">
-                    <h3 class="event-title">PlatziConf México 2020</h3>
-                    <p class="event-description">el evento más grande para gente que quiere aprender</p>
-                    <a class="event-url" href="https://www.youtube.com/watch?v=F8qRZt_jSF0" target="_blank">Ver Platica</a>
-                </div>
-            </article>
-        </div>
+            </article> -->
         
+
+        </div>
     </section>
+<!-- fin experiencia -->
 
     <section class="contact" id="contacto">
         <div class="container">
@@ -152,15 +140,15 @@
             </div>
         </div>
     </section>
+<!-- footer -->
     <footer class="footer">
         <div class="container">
             <div>
-                <p>cuerso de desarrollo web online 2019</p>
-            </div>
-            <div>
-                <p>Designed whit  <\3  by <a href="https://www.facebook.com/profile.php?id=100050490920561"> me </a> </p>
+                <p>Designed whit  <\3  by 
+                <a href="https://www.facebook.com/profile.php?id=100050490920561"target="_blank">Walter Alvarado</a> </p>
             </div>
         </div>
     </footer>
+<!-- fin footer -->
 </body>
 </html>

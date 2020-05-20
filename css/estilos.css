@@ -78,7 +78,7 @@ figure {
     height: inherit;
 }
 .hero{
-    height: 300px;
+    height: 400px;
     margin: 0px;
     background-color:rgb(43, 35, 26); 
     background-repeat: no-repeat; 
@@ -90,7 +90,6 @@ figure {
 .hero-image{
     height: inherit;
     object-fit: cover;
-
 }
 .project{
     border:2px solid rgb(43, 35, 26);
@@ -120,9 +119,13 @@ figure {
 }
 .project-details{
     width: 500px;
+    margin-right: 10px;
 }
 .project-imageContainer{
     width: 500px;
+}
+.project-imageContainer img{
+    width: 100%;
 }
 .portfolio{
 background-color: white;
@@ -170,7 +173,8 @@ padding: 20px ;
 .contact{
     background-color: rgb(43, 35, 26);
     color: whitesmoke;
-    height: 150px;
+    margin: 0px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;    
@@ -223,17 +227,25 @@ background-image: url('../img/twitter-logo-on-black-background.png');
     background-image: url('../img/instagram-logo.png');
 }
 .footer{
-    color: whitesmoke;
     background-color: rgb(43, 45, 40);
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    justify-content: space-between;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 0px;
+    color: whitesmoke;
+    text-align: center;
+    text-justify: auto;
+}
+.footer p{
+margin: 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(186,120,62);
 }
 .container{
     /* border: 1px solid red; */
     margin: 0px auto;
-    width: 1000px;
+    width: 90%;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
