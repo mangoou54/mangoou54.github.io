@@ -124,8 +124,9 @@ figure {
 .project-imageContainer{
     width: 500px;
 }
-.project-imageContainer img{
-    width: 100%;
+.project img{
+    width: 500px;
+    height: 300px;
 }
 .portfolio{
 background-color: white;
