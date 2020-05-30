@@ -5,6 +5,10 @@ declaraciones
 propiedades
 valores
 */
+var{
+--color2: rgb(186,120,62) 
+}
+
 body{
     margin: 0px 0px;
     font-family: 'Source Sans Pro',sans-serif;
@@ -74,11 +78,14 @@ figure {
     align-items: center;
     padding: 0px 10px; 
 }
+.header h1{
+    color: whitesmoke ;
+}
 .menu { /* .menu hereda de .header */
     height: inherit;
 }
 .hero{
-    height: 400px;
+    height: 250px;
     margin: 0px;
     background-color:rgb(43, 35, 26); 
     background-repeat: no-repeat; 
