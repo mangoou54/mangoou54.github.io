@@ -12,6 +12,7 @@ var{
 body{
     margin: 0px 0px;
     font-family: 'Source Sans Pro',sans-serif;
+    background-color: whitesmoke;
 }
 ol,
 ul {
@@ -98,10 +99,18 @@ figure {
     height: inherit;
     object-fit: cover;
 }
+.portfolio{
+    background-color: white;
+    padding: 20px ;
+    margin: auto;
+    /* border: 1px solid red; */
+}
 .project{
     border:2px solid rgb(43, 35, 26);
     padding: 20px;
+    width: 80%;
     border-radius: 20px;
+    margin: auto;
     margin-bottom: 20px;
     background: whitesmoke;
     display: flex;
@@ -135,9 +144,8 @@ figure {
     width: 500px;
     height: 300px;
 }
-.portfolio{
-background-color: white;
-padding: 20px ;
+.project h6{
+    font-size: 12px;
 }
 .event-list{
     display: flex;

@@ -19,7 +19,7 @@
         justify-content: center;
     }
     .hero-image{
-        width:99%;
+        width:90%;
         object-fit: contain;
     }
     .portfolio{
